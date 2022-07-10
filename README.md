@@ -1,1 +1,1 @@
-# UChicago-Course-Evaluations-Search-Tool
+# Personal Projects
