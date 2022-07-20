@@ -14,5 +14,9 @@ There are 2 different "scraping scripts" contained within this:
   c) Go through the professors for each class and identify their most recent evaluation <br />
   d) Open the most recent evalutions for each professor who taught each class and pull the data on each question and response <br />
   e) Serialize the class, professor, question, and response data in HTML format (lots of nesting in tree data structure) and write it into a file
+  
+I am currently working on a front_end file that unpacks the serialized data and allows you to interact with your terminal to request comparison 
+graphics of specific review questions for specific professors in specific courses. Needless to say it is taking longer than expected [working full-time
+takes away code time :(].
 
 *Note* -- The Util file is used to help the Codes Crawler determine which of the links leads toa department catalog and which are not useful for my purposes.
