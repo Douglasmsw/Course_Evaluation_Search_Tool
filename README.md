@@ -1,5 +1,6 @@
-# Course Crawler
-This project is from when I was trying to learn webscraping. I wanted to scrape and store the class feedback question-by-question and make a tool (to be built) so it is easier to view and compare class-specific professor evaluations. 
+# Professor Feedback Scraper and Search Tool
+
+This project is from when I was trying to learn webscraping. I wanted to scrape and store the class feedback question-by-question and make a tool to view and compare class-specific professor evaluations. 
 
 There are 2 different "scraping scripts" contained within this and a front end file that controls the interaction:
 
