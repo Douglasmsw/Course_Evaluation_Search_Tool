@@ -2,7 +2,7 @@
 
 This project is from when I was trying to learn webscraping. I wanted to scrape and store the class feedback question-by-question and make a tool to view and compare class-specific professor evaluations. 
 
-There are 2 different "scraping scripts" contained within this and a front end file that controls the interaction:
+There are 2 different "scraping scripts" contained within this and a front end file for user-interaction:
 
 1) **Codes Crawler** -- This script opens up the UChicago course catalog main page and uses Beautiful Soup to: <br />
    a) Determine which links on the page lead to a department catalog page <br />
@@ -21,6 +21,8 @@ There are 2 different "scraping scripts" contained within this and a front end f
    b) Determine which questions they'd like to see of those that appear in the evaluation surveys for the class / professors they've selected <br />
    c) Visualize the student survey responses either as <br />
       i) A dataframe (formatted using tabulate) <br />
-      ii) A graph representing the feedback pulled from the UChicago feedback portal
+      ii) A graph representing the feedback pulled from the UChicago feedback portal<br />
+      
+I hope to return to this project in the future and use a library like React to build out the user-interface as an online platform.
 
 *Note* -- The Util file is used to help the Codes Crawler determine which of the links leads to a department catalog and which are not useful for my purposes.
